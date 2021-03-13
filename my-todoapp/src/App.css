@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  width: 100vh;
+  height: 100%;
+}
+.nav{
+  padding-top: 100px;
+  /* align-items: center; */
+} 
+.maindiv{
+  overflow: hidden;
+/* display: block; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  background-color: blanchedalmond;
+}
+ 
+.todolist{
+  position: relative;
+  align-items: center;
+   margin-top: 21px;
+  display: flex; 
+  justify-content: center; 
+  width: 50%;
+  background-color: rgb(58, 5, 5);
+}
+ .center_div{
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+
+}
+.nav{
+  /* text-align: center; */
+  padding-top: 100px;
+  /* align-items: center; */
+} 
+.maindiv{
+  overflow: hidden;
+  /* text-align: center; */
+  width: 100%;
+  max-height: 100vh;
+  background-color: blanchedalmond;
+}
+.tc{
+  text-align: center;
+}
+.text_center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.margintop{
+  /* margin-top: 50px; */
+  margin: 30px;
+}
+.box{
+  color: aliceblue;
+  /* overflow: scroll; */
+  margin-left: 20%;
+  display: block;
+  position: relative;
+  align-items: center;
+  /* justify-self: center; */
+  width: 50%;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 90vh;
+  background-color: chocolate;
+}
+.bg{
+  margin:auto;
+  height: 10vh;
+  background-color: rgb(192, 35, 153);
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: brown 2px solid;
+
+}
+
+/* .list:hover{
+  animation-name: list;
+  animation: mymove 5s infinite;
+} */
+.navbar{
+  position: fixed;
+  color: aliceblue;
+  background-color: brown;
+  position: relative;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+} 
+.mt{
+  margin-top: 20%;
+}
+
+  /* @keyframes mymove{
+  10%{
+    border-width: 0%;
+    border-bottom: blueviolet 2px solid;
+  }
+  50%{
+    border-width: 50%;
+    border-bottom: blueviolet 3px solid;
+  }
+  100%{
+    border-width: 100%;
+    border-bottom: blueviolet 4px solid;
+  }
+} */
+a {
+  text-decoration: none;
+}
+.d-none{
+display: none;
+}
+.noti{
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  background-color: blueviolet;
+  z-index: 99;
+
+}
+.container{
+  overflow: hidden;
+   width: 100%;
+ max-height: 100vh; 
+}
+.middle{
+  overflow: hidden;
+  width: 100%;
+  max-height: 100vh; 
+  height: 100vh;
+  display: flex;
+  transform: translate(20%, 20%);
+}
+/* .itemleft{
+ display: block;
+ justify-content: baseline; 
+} */
